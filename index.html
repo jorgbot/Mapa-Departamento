@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" media="screen" href="css/superfish.css">
+    <link rel="stylesheet" media="screen" href="css/superfish-vertical.css">
+    <link rel="stylesheet" type="text/css" href="css/mapa.css" />
+    <link rel="stylesheet" type="text/css" href="js/colorbox/example1/colorbox.css" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    
+    <script src="js/colorbox/jquery.colorbox-min.js"></script>
+    <script src="js/hoverIntent.js"></script>
+    
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.js"></script>
+
+    <script type="text/javascript" src="js/mapa.js"></script>
+  </head>
+  <body>
+    <div id="mapa">
+      <div class="col-link">
+         <div id="regiones">
+            <div class="btn-region head-norte">NORTE</div>
+            <div class="btn-region head-occidente">OCCIDENTE</div>
+            <div class="btn-region head-oriental">ORIENTAL</div>
+            <div class="btn-region head-centro">CENTRO</div>
+            <div class="btn-region head-suroriente">SURORIENTE</div>
+            <div class="btn-region head-suroccidente">SUROCCIDENTE</div>
+         </div>
+         <div id="municipios">
+            <ul class="region-son mnorte">
+              <li><a href="#eltarra">El Tarra</a></li>
+              <li><a href="#tibu">Tibú</a></li>
+              <li><a href="#sardinata">Sardinata</a></li>
+              <li><a href="#bucarasica">Bucarasica</a></li>
+            </ul>
+            <ul class="region-son moccidente">
+              <li><a href="#ocana">Ocaña</a></li>
+              <li><a href="#laplaya">La Playa de Belén</a></li>
+              <li><a href="#abrego">Ábrego</a></li>
+              <li><a href="#elcarmen">El Carmen</a></li>
+              <li><a href="#convencion">Convención</a></li>
+              <li><a href="#teorama">Teorama</a></li>
+              <li><a href="#sancalisto">San Calixto</a></li>
+              <li><a href="#hacari">Hacarí</a></li>
+              <li><a href="#laesperanza">La Esperanza</a></li>
+              <li><a href="#cachira">Cáchira</a></li>
+            </ul>
+            <ul class="region-son moriental">
+              <li><a href="#cucuta">Cúcuta</a></li>
+              <li><a href="#vrosario">Villa del Rosario</a></li>
+              <li><a href="#lospatios">Los Patios</a></li>
+              <li><a href="#zulia">El Zulia</a></li>
+              <li><a href="#scayetano">San Cayetano</a></li>
+              <li><a href="#psantander">Puerto Santander</a></li>
+            </a></ul>
+            <ul class="region-son mcentro">
+              <li><a href="#santiago">Santiago</a></li>
+              <li><a href="#salazar">Salazar</a></li>
+              <li><a href="#gramalote">Gramalote</a></li>
+              <li><a href="#arboledas">Arboledas</a></li>
+              <li><a href="#cucutilla">Cucutilla</a></li>
+              <li><a href="#lourdes">Lourdes</a></li>
+              <li><a href="#vcaro">Villa Caro</a></li>
+            </ul>
+            <ul class="region-son msuroriente">
+              <li><a href="#chinacota">Chinácota</a></li>
+              <li><a href="#labateca">Labateca</a></li>
+              <li><a href="#toledo">Toledo</a></li>
+              <li><a href="#herran">Herrán</a></li>
+              <li><a href="#rangonvalia">Ragonvalia</a></li>
+              <li><a href="#bochalema">Bochalema</a></li>
+              <li><a href="#durania">Durania</a></li>
+            </ul>     
+            <ul class="region-son msuroccidente">
+              <li><a href="#pamplona">Pamplona</a></li>
+              <li><a href="#pamplonita">Pamplonita</a></li>
+              <li><a href="#mutiscua">Mutiscua</a></li>
+              <li><a href="#silos">Silos</a></li>
+              <li><a href="#chitaga">Chitagá</a></li>
+              <li><a href="#cacota">Cácota</a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="col-mapa">
+         <div class="zone-norte">
+           <div id="eltarra" class="indicator"></div>
+           <div id="tibu" class="indicator"></div>
+           <div id="sardinata" class="indicator"></div>
+           <div id="bucarasica" class="indicator"></div>
+         </div>
+         <div class="zone-occidente">
+           <div id="ocana" class="indicator"></div>
+           <div id="laplaya" class="indicator"></div>
+           <div id="abrego" class="indicator"></div>
+           <div id="elcarmen" class="indicator"></div>
+           <div id="convencion" class="indicator"></div>
+           <div id="teorama" class="indicator"></div>
+           <div id="sancalisto" class="indicator"></div>
+           <div id="hacari" class="indicator"></div>
+           <div id="laesperanza" class="indicator"></div>
+           <div id="cachira" class="indicator"></div>
+         </div>
+         <div class="zone-oriental">
+           <div id="cucuta" class="indicator"></div>
+           <div id="vrosario" class="indicator"></div>
+           <div id="lospatios" class="indicator"></div>
+           <div id="zulia" class="indicator"></div>           
+           <div id="scayetano" class="indicator"></div>           
+           <div id="psantander" class="indicator"></div>           
+         </div>
+         <div class="zone-centro">
+           <div id="santiago" class="indicator"></div>
+           <div id="salazar" class="indicator"></div>
+           <div id="gramalote" class="indicator"></div>
+           <div id="arboledas" class="indicator"></div>           
+           <div id="cucutilla" class="indicator"></div>           
+           <div id="lourdes" class="indicator"></div>           
+           <div id="vcaro" class="indicator"></div>                      
+         </div>
+         <div class="zone-suroriente">
+           <div id="chinacota" class="indicator"></div>
+           <div id="labateca" class="indicator"></div>
+           <div id="toledo" class="indicator"></div>
+           <div id="herran" class="indicator"></div>           
+           <div id="rangonvalia" class="indicator"></div>           
+           <div id="bochalema" class="indicator"></div>           
+           <div id="durania" class="indicator"></div>                      
+         </div>
+         <div class="zone-suroccidente">
+           <div id="pamplona" class="indicator"></div>
+           <div id="pamplonita" class="indicator"></div>
+           <div id="mutiscua" class="indicator"></div>
+           <div id="silos" class="indicator"></div>           
+           <div id="chitaga" class="indicator"></div>           
+           <div id="cacota" class="indicator"></div>           
+         </div>
+      </div>
+    </div>
+  </body>
+</html>
+  
